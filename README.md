@@ -25,6 +25,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/imswapnilpatange/leetcode/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/imswapnilpatange/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/imswapnilpatange/leetcode/tree/master/0027-remove-element) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
 ## Hash Table
@@ -46,4 +47,5 @@
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/imswapnilpatange/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/imswapnilpatange/leetcode/tree/master/0027-remove-element) |
 <!---LeetCode Topics End-->
