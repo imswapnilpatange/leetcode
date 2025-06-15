@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/imswapnilpatange/leetcode/tree/master/0009-palindrome-number) |
+| [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## Database
 |  |
 | ------- |
@@ -28,6 +29,7 @@
 | [0027-remove-element](https://github.com/imswapnilpatange/leetcode/tree/master/0027-remove-element) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
+| [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## Hash Table
 |  |
 | ------- |
