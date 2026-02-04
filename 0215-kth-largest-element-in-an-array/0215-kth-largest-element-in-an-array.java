@@ -30,9 +30,8 @@ class Solution {
     }
 }
 
-// QuickSelect: O(n^2); Θ(n) => Throws TLE (Time Limit Exceeded) for one test case.
-
 /*
+ ********************** QuickSelect: O(n^2); Θ(n) => Throws TLE (Time Limit Exceeded) for one test case. **********************
 public class Solution {
     public int findKthLargest(int[] nums, int k) {
         int left = 0;
