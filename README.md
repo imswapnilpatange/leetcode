@@ -62,6 +62,7 @@
 ## Dynamic Programming
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 ## Greedy
@@ -111,6 +112,7 @@
 ## Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 ## Depth-First Search
 |  |
@@ -119,5 +121,14 @@
 ## Binary Tree
 |  |
 | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
+## Backtracking
+|  |
+| ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 <!---LeetCode Topics End-->
