@@ -114,6 +114,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -123,6 +124,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
+| [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -131,4 +133,5 @@
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
+| [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 <!---LeetCode Topics End-->
