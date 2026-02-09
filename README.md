@@ -69,6 +69,7 @@
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Binary Search
 |  |
 | ------- |
@@ -80,6 +81,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Sorting
 |  |
 | ------- |
@@ -115,16 +117,19 @@
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -134,4 +139,5 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 <!---LeetCode Topics End-->
