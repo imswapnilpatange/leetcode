@@ -44,6 +44,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/imswapnilpatange/leetcode/tree/master/0001-two-sum) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
+| [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 ## Stack
 |  |
@@ -114,6 +115,7 @@
 |  |
 | ------- |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+| [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 ## Tree
 |  |
 | ------- |
@@ -151,4 +153,12 @@
 |  |
 | ------- |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+## Counting
+|  |
+| ------- |
+| [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+## Enumeration
+|  |
+| ------- |
+| [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 <!---LeetCode Topics End-->
