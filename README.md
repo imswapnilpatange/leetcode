@@ -45,6 +45,7 @@
 | [0001-two-sum](https://github.com/imswapnilpatange/leetcode/tree/master/0001-two-sum) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 ## Stack
 |  |
@@ -116,6 +117,7 @@
 | ------- |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+| [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 ## Tree
 |  |
 | ------- |
@@ -152,6 +154,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 ## Counting
 |  |
