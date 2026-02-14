@@ -30,6 +30,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/imswapnilpatange/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/imswapnilpatange/leetcode/tree/master/0027-remove-element) |
+| [0035-search-insert-position](https://github.com/imswapnilpatange/leetcode/tree/master/0035-search-insert-position) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
@@ -80,6 +81,7 @@
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0035-search-insert-position](https://github.com/imswapnilpatange/leetcode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
