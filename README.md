@@ -89,6 +89,7 @@
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
+| [0278-first-bad-version](https://github.com/imswapnilpatange/leetcode/tree/master/0278-first-bad-version) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 ## Divide and Conquer
@@ -189,4 +190,8 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/imswapnilpatange/leetcode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
