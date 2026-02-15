@@ -5,6 +5,7 @@
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/imswapnilpatange/leetcode/tree/master/0009-palindrome-number) |
+| [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
@@ -121,6 +122,7 @@
 ## String
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
@@ -175,5 +177,10 @@
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
+## Simulation
+|  |
+| ------- |
+| [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 <!---LeetCode Topics End-->
