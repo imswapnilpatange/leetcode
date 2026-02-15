@@ -7,6 +7,7 @@
 | [0009-palindrome-number](https://github.com/imswapnilpatange/leetcode/tree/master/0009-palindrome-number) |
 | [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
+| [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## Database
@@ -34,6 +35,7 @@
 | [0035-search-insert-position](https://github.com/imswapnilpatange/leetcode/tree/master/0035-search-insert-position) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
@@ -46,6 +48,7 @@
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/imswapnilpatange/leetcode/tree/master/0001-two-sum) |
+| [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
@@ -85,6 +88,7 @@
 | [0035-search-insert-position](https://github.com/imswapnilpatange/leetcode/tree/master/0035-search-insert-position) |
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 ## Divide and Conquer
@@ -98,6 +102,7 @@
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 ## Heap (Priority Queue)
@@ -179,6 +184,7 @@
 | ------- |
 | [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 ## Simulation
 |  |
 | ------- |
