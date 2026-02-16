@@ -8,6 +8,7 @@
 | [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
+| [0367-valid-perfect-square](https://github.com/imswapnilpatange/leetcode/tree/master/0367-valid-perfect-square) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
 ## Database
@@ -98,6 +99,7 @@
 | [0278-first-bad-version](https://github.com/imswapnilpatange/leetcode/tree/master/0278-first-bad-version) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0367-valid-perfect-square](https://github.com/imswapnilpatange/leetcode/tree/master/0367-valid-perfect-square) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 ## Divide and Conquer
