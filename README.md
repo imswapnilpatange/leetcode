@@ -37,6 +37,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
@@ -51,6 +52,7 @@
 | [0001-two-sum](https://github.com/imswapnilpatange/leetcode/tree/master/0001-two-sum) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
@@ -72,6 +74,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/imswapnilpatange/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/imswapnilpatange/leetcode/tree/master/0027-remove-element) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -94,6 +97,7 @@
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0278-first-bad-version](https://github.com/imswapnilpatange/leetcode/tree/master/0278-first-bad-version) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 ## Divide and Conquer
@@ -110,6 +114,7 @@
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
+| [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 ## Heap (Priority Queue)
