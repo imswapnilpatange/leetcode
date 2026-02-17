@@ -171,6 +171,7 @@
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
+| [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -201,6 +202,7 @@
 | [0190-reverse-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0190-reverse-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
+| [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
 ## Simulation
 |  |
 | ------- |
