@@ -43,6 +43,7 @@
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
+| [0704-binary-search](https://github.com/imswapnilpatange/leetcode/tree/master/0704-binary-search) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
@@ -104,6 +105,7 @@
 | [0374-guess-number-higher-or-lower](https://github.com/imswapnilpatange/leetcode/tree/master/0374-guess-number-higher-or-lower) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0441-arranging-coins](https://github.com/imswapnilpatange/leetcode/tree/master/0441-arranging-coins) |
+| [0704-binary-search](https://github.com/imswapnilpatange/leetcode/tree/master/0704-binary-search) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 ## Divide and Conquer
 |  |
