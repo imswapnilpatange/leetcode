@@ -78,6 +78,7 @@
 | [0027-remove-element](https://github.com/imswapnilpatange/leetcode/tree/master/0027-remove-element) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
+| [0696-count-binary-substrings](https://github.com/imswapnilpatange/leetcode/tree/master/0696-count-binary-substrings) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -147,6 +148,7 @@
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
+| [0696-count-binary-substrings](https://github.com/imswapnilpatange/leetcode/tree/master/0696-count-binary-substrings) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
