@@ -45,6 +45,7 @@
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
 | [0704-binary-search](https://github.com/imswapnilpatange/leetcode/tree/master/0704-binary-search) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
+| [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
@@ -108,6 +109,7 @@
 | [0441-arranging-coins](https://github.com/imswapnilpatange/leetcode/tree/master/0441-arranging-coins) |
 | [0704-binary-search](https://github.com/imswapnilpatange/leetcode/tree/master/0704-binary-search) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
+| [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 ## Divide and Conquer
 |  |
 | ------- |
