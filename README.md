@@ -48,6 +48,7 @@
 | [0744-find-smallest-letter-greater-than-target](https://github.com/imswapnilpatange/leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0888-fair-candy-swap](https://github.com/imswapnilpatange/leetcode/tree/master/0888-fair-candy-swap) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
@@ -63,6 +64,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0888-fair-candy-swap](https://github.com/imswapnilpatange/leetcode/tree/master/0888-fair-candy-swap) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
@@ -85,6 +87,7 @@
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0696-count-binary-substrings](https://github.com/imswapnilpatange/leetcode/tree/master/0696-count-binary-substrings) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -116,6 +119,7 @@
 | [0744-find-smallest-letter-greater-than-target](https://github.com/imswapnilpatange/leetcode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0888-fair-candy-swap](https://github.com/imswapnilpatange/leetcode/tree/master/0888-fair-candy-swap) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 ## Divide and Conquer
@@ -138,6 +142,7 @@
 | [0761-special-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/0761-special-binary-string) |
 | [0888-fair-candy-swap](https://github.com/imswapnilpatange/leetcode/tree/master/0888-fair-candy-swap) |
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
+| [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 ## Heap (Priority Queue)
 |  |
