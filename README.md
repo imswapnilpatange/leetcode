@@ -184,11 +184,13 @@
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Binary Tree
 |  |
@@ -197,6 +199,7 @@
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
+| [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 ## Backtracking
 |  |
