@@ -7,6 +7,7 @@
 | [0009-palindrome-number](https://github.com/imswapnilpatange/leetcode/tree/master/0009-palindrome-number) |
 | [0067-add-binary](https://github.com/imswapnilpatange/leetcode/tree/master/0067-add-binary) |
 | [0069-sqrtx](https://github.com/imswapnilpatange/leetcode/tree/master/0069-sqrtx) |
+| [0231-power-of-two](https://github.com/imswapnilpatange/leetcode/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0367-valid-perfect-square](https://github.com/imswapnilpatange/leetcode/tree/master/0367-valid-perfect-square) |
 | [0441-arranging-coins](https://github.com/imswapnilpatange/leetcode/tree/master/0441-arranging-coins) |
@@ -244,6 +245,7 @@
 | [0190-reverse-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0190-reverse-bits) |
 | [0191-number-of-1-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0191-number-of-1-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0231-power-of-two](https://github.com/imswapnilpatange/leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/imswapnilpatange/leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
@@ -269,4 +271,8 @@
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/imswapnilpatange/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+## Recursion
+|  |
+| ------- |
+| [0231-power-of-two](https://github.com/imswapnilpatange/leetcode/tree/master/0231-power-of-two) |
 <!---LeetCode Topics End-->
