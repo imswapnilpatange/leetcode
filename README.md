@@ -40,6 +40,7 @@
 | [0136-single-number](https://github.com/imswapnilpatange/leetcode/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0137-single-number-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0260-single-number-iii](https://github.com/imswapnilpatange/leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0349-intersection-of-two-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/0349-intersection-of-two-arrays) |
 | [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
@@ -238,6 +239,7 @@
 | [0137-single-number-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0137-single-number-ii) |
 | [0190-reverse-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0190-reverse-bits) |
 | [0222-count-complete-tree-nodes](https://github.com/imswapnilpatange/leetcode/tree/master/0222-count-complete-tree-nodes) |
+| [0260-single-number-iii](https://github.com/imswapnilpatange/leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
 | [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0693-binary-number-with-alternating-bits) |
