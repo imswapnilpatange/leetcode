@@ -57,6 +57,7 @@
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/imswapnilpatange/leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 | [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
@@ -173,6 +174,7 @@
 | [1337-the-k-weakest-rows-in-a-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1337-the-k-weakest-rows-in-a-matrix) |
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
+| [1582-special-positions-in-a-binary-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
 ## Sliding Window
 |  |
 | ------- |
