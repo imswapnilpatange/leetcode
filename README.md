@@ -59,6 +59,7 @@
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1582-special-positions-in-a-binary-matrix](https://github.com/imswapnilpatange/leetcode/tree/master/1582-special-positions-in-a-binary-matrix) |
+| [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
 | [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
@@ -75,6 +76,7 @@
 | [0888-fair-candy-swap](https://github.com/imswapnilpatange/leetcode/tree/master/0888-fair-candy-swap) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/imswapnilpatange/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+| [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
@@ -199,6 +201,7 @@
 | [1758-minimum-changes-to-make-alternating-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1758-minimum-changes-to-make-alternating-binary-string) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/imswapnilpatange/leetcode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/imswapnilpatange/leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
+| [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 ## Tree
@@ -230,6 +233,7 @@
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
+| [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
 ## Binary Search Tree
 |  |
 | ------- |
