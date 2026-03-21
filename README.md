@@ -70,6 +70,7 @@
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/imswapnilpatange/leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/imswapnilpatange/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
+| [3643-flip-square-submatrix-vertically](https://github.com/imswapnilpatange/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
@@ -111,6 +112,7 @@
 | [0350-intersection-of-two-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0350-intersection-of-two-arrays-ii) |
 | [0696-count-binary-substrings](https://github.com/imswapnilpatange/leetcode/tree/master/0696-count-binary-substrings) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
+| [3643-flip-square-submatrix-vertically](https://github.com/imswapnilpatange/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -203,6 +205,7 @@
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3070-count-submatrices-with-top-left-element-and-sum-less-than-k](https://github.com/imswapnilpatange/leetcode/tree/master/3070-count-submatrices-with-top-left-element-and-sum-less-than-k) |
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/imswapnilpatange/leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
+| [3643-flip-square-submatrix-vertically](https://github.com/imswapnilpatange/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
 ## Sliding Window
 |  |
 | ------- |
