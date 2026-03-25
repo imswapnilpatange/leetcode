@@ -38,6 +38,24 @@ def fetch_latest_submission():
     return None
 
 # ---------------------------
+# Fetch Submission Detail (Accurate %)
+# ---------------------------
+
+def fetch_submission_detail(submission_id):
+    url = f"{BASE_URL}/api/submissions/{submission_id}/"
+    res = requests.get(url, headers=HEADERS)
+
+    if res.status_code != 200:
+        return {}
+
+    data = res.json()
+
+    return {
+        "runtime_percent": data.get("runtime_percentile", ""),
+        "memory_percent": data.get("memory_percentile", "")
+    }
+
+# ---------------------------
 # Fetch Problem Details
 # ---------------------------
 
@@ -75,18 +93,50 @@ def fetch_problem_details(slug):
     }
 
 # ---------------------------
-# Extract % (Important)
+# Update Root README (Append at END)
 # ---------------------------
 
-def extract_percentage(value):
-    match = re.search(r'\((.*?)\)', value)
-    return match.group(1) if match else ""
+def update_root_readme(problem, slug):
+    line = f"- [{problem['title']}](https://leetcode.com/problems/{slug})\n"
+    readme_path = "README.md"
+
+    if not os.path.exists(readme_path):
+        with open(readme_path, "w") as f:
+            f.write("# LeetCode Solutions\n\n## Related Topics\n\n")
+
+    with open(readme_path, "r") as f:
+        content = f.readlines()
+
+    if line in content:
+        return
+
+    new_content = []
+    in_section = False
+
+    for i, l in enumerate(content):
+        new_content.append(l)
+
+        if "## Related Topics" in l:
+            in_section = True
+            continue
+
+        # Append at end of section
+        if in_section and (i + 1 == len(content) or content[i + 1].startswith("## ")):
+            new_content.append(line)
+            in_section = False
+
+    if not any("## Related Topics" in l for l in content):
+        new_content.append("\n## Related Topics\n\n")
+        new_content.append(line)
+
+    with open(readme_path, "w") as f:
+        f.writelines(new_content)
 
 # ---------------------------
-# File Creation (Exact Structure)
+# Create Files (Exact Structure)
 # ---------------------------
 
-def create_files(problem, submission):
+def create_files(problem, submission, perc):
     pid = format_id(problem["id"])
     slug = submission["title_slug"]
 
@@ -97,11 +147,13 @@ def create_files(problem, submission):
     lang = submission["lang"].lower()
     ext = ext_map.get(lang, "txt")
 
-    # Solution
-    with open(f"{folder}/{slug}.{ext}", "w", encoding="utf-8") as f:
+    # Solution filename: id-slug.ext
+    filename = f"{pid}-{slug}.{ext}"
+
+    with open(f"{folder}/{filename}", "w", encoding="utf-8") as f:
         f.write(submission["code"])
 
-    # README (match your repo style)
+    # README
     readme = f"""# {problem['title']}
 
 - Problem ID: {problem['id']}
@@ -125,16 +177,16 @@ https://leetcode.com/problems/{slug}
         "tags": problem["tags"],
         "language": submission["lang"],
         "runtime": submission["runtime"],
-        "runtime_percent": extract_percentage(submission.get("runtime", "")),
+        "runtime_percent": perc.get("runtime_percent", ""),
         "memory": submission["memory"],
-        "memory_percent": extract_percentage(submission.get("memory", "")),
+        "memory_percent": perc.get("memory_percent", ""),
         "link": f"https://leetcode.com/problems/{slug}"
     }
 
     with open(f"{folder}/metadata.json", "w") as f:
         json.dump(metadata, f, indent=2)
 
-    return folder, metadata
+    return metadata
 
 # ---------------------------
 # Main
@@ -146,31 +198,33 @@ def main():
 
     latest = fetch_latest_submission()
     if not latest:
-        print("No accepted submission")
         return
 
-    # Idempotency check
+    # Idempotency
     if os.path.exists(".last_synced"):
-        with open(".last_synced", "r") as f:
-            if f.read().strip() == str(latest["id"]):
-                print("No new submission")
-                return
+        if open(".last_synced").read().strip() == str(latest["id"]):
+            print("No new submission")
+            return
 
-    problem = fetch_problem_details(latest["title_slug"])
-    folder, metadata = create_files(problem, latest)
+    slug = latest["title_slug"]
+
+    problem = fetch_problem_details(slug)
+    perc = fetch_submission_detail(latest["id"])
+
+    metadata = create_files(problem, latest, perc)
+
+    update_root_readme(problem, slug)
 
     with open(".last_synced", "w") as f:
         f.write(str(latest["id"]))
 
     os.system("git add .")
 
-    # Commit Message EXACT format
-    commit_msg = f"Time: {metadata['runtime']} ({metadata['runtime_percent']}), Space: {metadata['memory']} ({metadata['memory_percent']}) - Sync"
+    commit_msg = f"Time: {metadata['runtime']} ({metadata['runtime_percent']}%), Space: {metadata['memory']} ({metadata['memory_percent']}%) - Sync"
 
     os.system(f'git commit -m "{commit_msg}" || echo "No changes"')
 
-    pull_status = os.system("git pull --rebase origin main")
-    if pull_status != 0:
+    if os.system("git pull --rebase origin main") != 0:
         os.system("git rebase --abort")
         return
 
