@@ -15,8 +15,8 @@ HEADERS = {
 # Utils
 # ---------------------------
 
-def clean_name(name: str):
-    return re.sub(r'[^a-zA-Z0-9\- ]', '', name).replace(" ", "-").lower()
+def format_id(pid: str):
+    return str(pid).zfill(4)
 
 # ---------------------------
 # Fetch Latest Accepted Submission
@@ -27,7 +27,7 @@ def fetch_latest_submission():
     res = requests.get(url, headers=HEADERS)
 
     if res.status_code != 200:
-        raise Exception("Failed to fetch submissions (session expired?)")
+        raise Exception("Failed to fetch submissions")
 
     subs = res.json().get("submissions_dump", [])
 
@@ -62,7 +62,7 @@ def fetch_problem_details(slug):
     res = requests.post(f"{BASE_URL}/graphql", json=query, headers=HEADERS)
 
     if res.status_code != 200:
-        raise Exception("Failed to fetch problem details")
+        raise Exception("Failed to fetch problem")
 
     q = res.json()["data"]["question"]
 
@@ -75,11 +75,22 @@ def fetch_problem_details(slug):
     }
 
 # ---------------------------
-# File Creation (Overwrite)
+# Extract % (Important)
+# ---------------------------
+
+def extract_percentage(value):
+    match = re.search(r'\((.*?)\)', value)
+    return match.group(1) if match else ""
+
+# ---------------------------
+# File Creation (Exact Structure)
 # ---------------------------
 
 def create_files(problem, submission):
-    folder = f"Difficulty-{problem['difficulty']}/{clean_name(problem['title'])}"
+    pid = format_id(problem["id"])
+    slug = submission["title_slug"]
+
+    folder = f"{pid}-{slug}"
     os.makedirs(folder, exist_ok=True)
 
     ext_map = {"java": "java", "python": "py", "cpp": "cpp"}
@@ -87,10 +98,10 @@ def create_files(problem, submission):
     ext = ext_map.get(lang, "txt")
 
     # Solution
-    with open(f"{folder}/{submission['title_slug']}.{ext}", "w", encoding="utf-8") as f:
+    with open(f"{folder}/{slug}.{ext}", "w", encoding="utf-8") as f:
         f.write(submission["code"])
 
-    # README
+    # README (match your repo style)
     readme = f"""# {problem['title']}
 
 - Problem ID: {problem['id']}
@@ -101,11 +112,7 @@ def create_files(problem, submission):
 {problem['description']}
 
 ## Link
-https://leetcode.com/problems/{submission['title_slug']}
-
-## Complexity
-- Time: TBD
-- Space: TBD
+https://leetcode.com/problems/{slug}
 """
     with open(f"{folder}/README.md", "w", encoding="utf-8") as f:
         f.write(readme)
@@ -118,16 +125,16 @@ https://leetcode.com/problems/{submission['title_slug']}
         "tags": problem["tags"],
         "language": submission["lang"],
         "runtime": submission["runtime"],
-        "runtime_percent": "",
+        "runtime_percent": extract_percentage(submission.get("runtime", "")),
         "memory": submission["memory"],
-        "memory_percent": "",
-        "link": f"https://leetcode.com/problems/{submission['title_slug']}"
+        "memory_percent": extract_percentage(submission.get("memory", "")),
+        "link": f"https://leetcode.com/problems/{slug}"
     }
 
     with open(f"{folder}/metadata.json", "w") as f:
         json.dump(metadata, f, indent=2)
 
-    return folder
+    return folder, metadata
 
 # ---------------------------
 # Main
@@ -138,33 +145,30 @@ def main():
     os.system("git config user.email 'github-actions@github.com'")
 
     latest = fetch_latest_submission()
-
     if not latest:
-        print("No accepted submission found")
+        print("No accepted submission")
         return
 
-    slug = latest["title_slug"]
-
-    # Prevent duplicate work (idempotent)
-    if os.path.exists(f".last_synced") :
+    # Idempotency check
+    if os.path.exists(".last_synced"):
         with open(".last_synced", "r") as f:
             if f.read().strip() == str(latest["id"]):
                 print("No new submission")
                 return
 
-    problem = fetch_problem_details(slug)
-    folder = create_files(problem, latest)
+    problem = fetch_problem_details(latest["title_slug"])
+    folder, metadata = create_files(problem, latest)
 
-    # Save last synced ID
     with open(".last_synced", "w") as f:
         f.write(str(latest["id"]))
 
-    # Commit
     os.system("git add .")
-    commit_msg = f"{problem['title']} (#{problem['id']}) | Time: {latest['runtime']} | Space: {latest['memory']}"
+
+    # Commit Message EXACT format
+    commit_msg = f"Time: {metadata['runtime']} ({metadata['runtime_percent']}), Space: {metadata['memory']} ({metadata['memory_percent']}) - Sync"
+
     os.system(f'git commit -m "{commit_msg}" || echo "No changes"')
 
-    # Rebase-safe push
     pull_status = os.system("git pull --rebase origin main")
     if pull_status != 0:
         os.system("git rebase --abort")
