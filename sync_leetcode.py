@@ -13,46 +13,89 @@ HEADERS = {
     "Cookie": f"LEETCODE_SESSION={SESSION}" if SESSION else ""
 }
 
+# ---------------------------
+# Utils
+# ---------------------------
+
 def get_date_range(start_date: str, end_date: str) -> List[str]:
     start = datetime.datetime.strptime(start_date, "%Y-%m-%d")
     end = datetime.datetime.strptime(end_date, "%Y-%m-%d")
     return [(start + datetime.timedelta(days=i)).strftime("%Y-%m-%d")
             for i in range((end - start).days + 1)]
 
-def fetch_daily_problem(date: str):
+def clean_name(name: str):
+    return re.sub(r'[^a-zA-Z0-9\- ]', '', name).replace(" ", "-").lower()
+
+# ---------------------------
+# LeetCode APIs
+# ---------------------------
+
+def fetch_daily_problem_by_date(target_date: str):
+    year = int(target_date[:4])
+
     query = {
         "query": """
-        query questionOfToday {
-          activeDailyCodingChallengeQuestion {
-            date
-            question {
-              questionId
-              title
-              titleSlug
-              difficulty
-              content
-              topicTags {
-                name
+        query dailyProblems($year: Int!) {
+          dailyCodingChallengeV2(year: $year) {
+            challenges {
+              date
+              question {
+                questionId
+                questionFrontendId
+                title
+                titleSlug
+                difficulty
+                topicTags {
+                  name
+                }
               }
             }
           }
         }
-        """
+        """,
+        "variables": {"year": year}
     }
 
     res = requests.post(BASE_URL, json=query, headers=HEADERS)
+
+    if res.status_code != 200:
+        raise Exception(f"GraphQL failed: {res.status_code}")
+
     data = res.json()
+    challenges = data["data"]["dailyCodingChallengeV2"]["challenges"]
 
-    q = data["data"]["activeDailyCodingChallengeQuestion"]["question"]
+    for c in challenges:
+        if c["date"] == target_date:
+            q = c["question"]
+            return {
+                "id": q["questionFrontendId"],   # ✅ FIXED
+                "title": q["title"],
+                "slug": q["titleSlug"],
+                "difficulty": q["difficulty"],
+                "tags": [t["name"] for t in q["topicTags"]]
+            }
 
-    return {
-        "id": q["questionId"],
-        "title": q["title"],
-        "slug": q["titleSlug"],
-        "difficulty": q["difficulty"],
-        "description": q["content"],
-        "tags": [t["name"] for t in q["topicTags"]]
+    return None
+
+
+def fetch_full_description(slug: str):
+    query = {
+        "query": """
+        query getQuestion($titleSlug: String!) {
+          question(titleSlug: $titleSlug) {
+            content
+          }
+        }
+        """,
+        "variables": {"titleSlug": slug}
     }
+
+    res = requests.post(BASE_URL, json=query, headers=HEADERS)
+    if res.status_code != 200:
+        return ""
+
+    return res.json()["data"]["question"]["content"]
+
 
 def fetch_latest_submission(slug: str):
     url = f"https://leetcode.com/api/submissions/{slug}/"
@@ -74,22 +117,31 @@ def fetch_latest_submission(slug: str):
             }
     return None
 
-def clean_name(name: str):
-    return re.sub(r'[^a-zA-Z0-9\- ]', '', name).replace(" ", "-").lower()
+# ---------------------------
+# File Creation (Overwrite Guaranteed)
+# ---------------------------
 
 def create_files(date, problem, submission):
     folder = f"Difficulty-{problem['difficulty']}/{date}-{clean_name(problem['title'])}"
     os.makedirs(folder, exist_ok=True)
 
-    ext_map = {"java": "java", "python": "py", "cpp": "cpp"}
+    ext_map = {
+        "java": "java",
+        "python": "py",
+        "cpp": "cpp"
+    }
+
     lang = submission["lang"].lower()
     ext = ext_map.get(lang, "txt")
 
-    # Solution file
+    # Solution (overwrite)
     with open(f"{folder}/{problem['slug']}.{ext}", "w", encoding="utf-8") as f:
         f.write(submission["code"])
 
-    # README
+    # Description fetch (fallback-safe)
+    description = fetch_full_description(problem["slug"])
+
+    # README (overwrite)
     readme = f"""# {problem['title']}
 
 - Problem ID: {problem['id']}
@@ -97,7 +149,7 @@ def create_files(date, problem, submission):
 - Tags: {", ".join(problem['tags'])}
 
 ## Description
-{problem['description']}
+{description}
 
 ## Link
 https://leetcode.com/problems/{problem['slug']}
@@ -109,7 +161,7 @@ https://leetcode.com/problems/{problem['slug']}
     with open(f"{folder}/README.md", "w", encoding="utf-8") as f:
         f.write(readme)
 
-    # Metadata
+    # Metadata (overwrite)
     metadata = {
         "date": date,
         "problem_id": problem["id"],
@@ -129,31 +181,47 @@ https://leetcode.com/problems/{problem['slug']}
 
     return folder
 
+# ---------------------------
+# Main
+# ---------------------------
+
 def main():
     today = datetime.date.today().strftime("%Y-%m-%d")
 
-    start_date = os.getenv("START_DATE", today)
-    end_date = os.getenv("END_DATE", today)
+    start_date = os.getenv("START_DATE") or today
+    end_date = os.getenv("END_DATE") or today
 
     dates = get_date_range(start_date, end_date)
 
+    os.system("git config user.name 'github-actions'")
+    os.system("git config user.email 'github-actions@github.com'")
+
     for date in dates:
-        problem = fetch_daily_problem(date)
-        submission = fetch_latest_submission(problem["slug"])
+        try:
+            problem = fetch_daily_problem_by_date(date)
 
-        if not submission:
-            print(f"No accepted submission for {problem['title']}")
-            continue
+            if not problem:
+                print(f"No problem found for {date}")
+                continue
 
-        folder = create_files(date, problem, submission)
+            submission = fetch_latest_submission(problem["slug"])
 
-        commit_msg = f"{problem['title']} (#{problem['id']}) | Time: ({submission['runtime']}) , Space: ({submission['memory']}) | Tags: {', '.join(problem['tags'])}"
+            if not submission:
+                print(f"No accepted submission for {problem['title']}")
+                continue
 
-        os.system("git config user.name 'github-actions'")
-        os.system("git config user.email 'github-actions@github.com'")
-        os.system(f"git add {folder}")
-        os.system(f'git commit -m "{commit_msg}" || echo "No changes"')
-        os.system("git push")
+            folder = create_files(date, problem, submission)
+
+            commit_msg = f"{problem['title']} (#{problem['id']}) | Time: ({submission['runtime']}) , Space: ({submission['memory']}) | Tags: {', '.join(problem['tags'])}"
+
+            os.system(f"git add {folder}")
+            os.system(f'git commit -m "{commit_msg}" || echo "No changes"')
+
+        except Exception as e:
+            print(f"Error for {date}: {e}")
+
+    os.system("git push")
+
 
 if __name__ == "__main__":
     main()
