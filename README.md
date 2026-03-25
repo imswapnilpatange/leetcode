@@ -343,3 +343,6 @@
 | ------- |
 | [1622-fancy-sequence](https://github.com/imswapnilpatange/leetcode/tree/master/1622-fancy-sequence) |
 <!---LeetCode Topics End-->
+## Related Topics
+
+- [Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i)
