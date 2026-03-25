@@ -120,6 +120,7 @@
 | [0042-trapping-rain-water](https://github.com/imswapnilpatange/leetcode/tree/master/0042-trapping-rain-water) |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0338-counting-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0338-counting-bits) |
 | [0799-champagne-tower](https://github.com/imswapnilpatange/leetcode/tree/master/0799-champagne-tower) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/imswapnilpatange/leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
@@ -304,6 +305,7 @@
 | [0231-power-of-two](https://github.com/imswapnilpatange/leetcode/tree/master/0231-power-of-two) |
 | [0260-single-number-iii](https://github.com/imswapnilpatange/leetcode/tree/master/0260-single-number-iii) |
 | [0268-missing-number](https://github.com/imswapnilpatange/leetcode/tree/master/0268-missing-number) |
+| [0338-counting-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0338-counting-bits) |
 | [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
 | [0693-binary-number-with-alternating-bits](https://github.com/imswapnilpatange/leetcode/tree/master/0693-binary-number-with-alternating-bits) |
 | [0762-prime-number-of-set-bits-in-binary-representation](https://github.com/imswapnilpatange/leetcode/tree/master/0762-prime-number-of-set-bits-in-binary-representation) |
