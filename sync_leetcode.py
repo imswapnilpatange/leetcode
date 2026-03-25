@@ -1,11 +1,9 @@
 import os
 import requests
-import datetime
 import json
 import re
-from typing import List
 
-BASE_URL = "https://leetcode.com/graphql"
+BASE_URL = "https://leetcode.com"
 SESSION = os.getenv("LEETCODE_SESSION")
 
 HEADERS = {
@@ -17,109 +15,71 @@ HEADERS = {
 # Utils
 # ---------------------------
 
-def get_date_range(start_date: str, end_date: str) -> List[str]:
-    start = datetime.datetime.strptime(start_date, "%Y-%m-%d")
-    end = datetime.datetime.strptime(end_date, "%Y-%m-%d")
-    return [(start + datetime.timedelta(days=i)).strftime("%Y-%m-%d")
-            for i in range((end - start).days + 1)]
-
 def clean_name(name: str):
     return re.sub(r'[^a-zA-Z0-9\- ]', '', name).replace(" ", "-").lower()
 
 # ---------------------------
-# LeetCode APIs
+# Fetch Latest Accepted Submission
 # ---------------------------
 
-def fetch_daily_problem_by_date(target_date: str):
-    year = int(target_date[:4])
+def fetch_latest_submission():
+    url = f"{BASE_URL}/api/submissions/"
+    res = requests.get(url, headers=HEADERS)
 
-    query = {
-        "query": """
-        query dailyProblems($year: Int!) {
-          dailyCodingChallengeV2(year: $year) {
-            challenges {
-              date
-              question {
-                questionId
-                questionFrontendId
-                title
-                titleSlug
-                difficulty
-                topicTags {
-                  name
-                }
-              }
-            }
-          }
-        }
-        """,
-        "variables": {"year": year}
-    }
-
-    res = requests.post(BASE_URL, json=query, headers=HEADERS)
     if res.status_code != 200:
-        raise Exception(f"GraphQL failed: {res.status_code}")
+        raise Exception("Failed to fetch submissions (session expired?)")
 
-    challenges = res.json()["data"]["dailyCodingChallengeV2"]["challenges"]
+    subs = res.json().get("submissions_dump", [])
 
-    for c in challenges:
-        if c["date"] == target_date:
-            q = c["question"]
-            return {
-                "id": q["questionFrontendId"],
-                "title": q["title"],
-                "slug": q["titleSlug"],
-                "difficulty": q["difficulty"],
-                "tags": [t["name"] for t in q["topicTags"]]
-            }
+    for sub in subs:
+        if sub["status_display"] == "Accepted":
+            return sub
 
     return None
 
+# ---------------------------
+# Fetch Problem Details
+# ---------------------------
 
-def fetch_full_description(slug: str):
+def fetch_problem_details(slug):
     query = {
         "query": """
         query getQuestion($titleSlug: String!) {
           question(titleSlug: $titleSlug) {
+            questionFrontendId
+            title
+            difficulty
             content
+            topicTags {
+              name
+            }
           }
         }
         """,
         "variables": {"titleSlug": slug}
     }
 
-    res = requests.post(BASE_URL, json=query, headers=HEADERS)
-    if res.status_code != 200:
-        return ""
-
-    return res.json()["data"]["question"]["content"]
-
-
-def fetch_latest_submission(slug: str):
-    url = f"https://leetcode.com/api/submissions/{slug}/"
-    res = requests.get(url, headers=HEADERS)
+    res = requests.post(f"{BASE_URL}/graphql", json=query, headers=HEADERS)
 
     if res.status_code != 200:
-        return None
+        raise Exception("Failed to fetch problem details")
 
-    subs = res.json().get("submissions_dump", [])
+    q = res.json()["data"]["question"]
 
-    for sub in subs:
-        if sub["status_display"] == "Accepted":
-            return {
-                "code": sub["code"],
-                "lang": sub["lang"],
-                "runtime": sub["runtime"],
-                "memory": sub["memory"]
-            }
-    return None
+    return {
+        "id": q["questionFrontendId"],
+        "title": q["title"],
+        "difficulty": q["difficulty"],
+        "description": q["content"],
+        "tags": [t["name"] for t in q["topicTags"]]
+    }
 
 # ---------------------------
-# File Creation
+# File Creation (Overwrite)
 # ---------------------------
 
-def create_files(date, problem, submission):
-    folder = f"Difficulty-{problem['difficulty']}/{date}-{clean_name(problem['title'])}"
+def create_files(problem, submission):
+    folder = f"Difficulty-{problem['difficulty']}/{clean_name(problem['title'])}"
     os.makedirs(folder, exist_ok=True)
 
     ext_map = {"java": "java", "python": "py", "cpp": "cpp"}
@@ -127,10 +87,8 @@ def create_files(date, problem, submission):
     ext = ext_map.get(lang, "txt")
 
     # Solution
-    with open(f"{folder}/{problem['slug']}.{ext}", "w", encoding="utf-8") as f:
+    with open(f"{folder}/{submission['title_slug']}.{ext}", "w", encoding="utf-8") as f:
         f.write(submission["code"])
-
-    description = fetch_full_description(problem["slug"])
 
     # README
     readme = f"""# {problem['title']}
@@ -140,10 +98,10 @@ def create_files(date, problem, submission):
 - Tags: {", ".join(problem['tags'])}
 
 ## Description
-{description}
+{problem['description']}
 
 ## Link
-https://leetcode.com/problems/{problem['slug']}
+https://leetcode.com/problems/{submission['title_slug']}
 
 ## Complexity
 - Time: TBD
@@ -154,7 +112,6 @@ https://leetcode.com/problems/{problem['slug']}
 
     # Metadata
     metadata = {
-        "date": date,
         "problem_id": problem["id"],
         "problem_name": problem["title"],
         "difficulty": problem["difficulty"],
@@ -164,7 +121,7 @@ https://leetcode.com/problems/{problem['slug']}
         "runtime_percent": "",
         "memory": submission["memory"],
         "memory_percent": "",
-        "link": f"https://leetcode.com/problems/{problem['slug']}"
+        "link": f"https://leetcode.com/problems/{submission['title_slug']}"
     }
 
     with open(f"{folder}/metadata.json", "w") as f:
@@ -177,54 +134,39 @@ https://leetcode.com/problems/{problem['slug']}
 # ---------------------------
 
 def main():
-    today = datetime.date.today().strftime("%Y-%m-%d")
-
-    start_date = os.getenv("START_DATE") or today
-    end_date = os.getenv("END_DATE") or today
-
-    dates = get_date_range(start_date, end_date)
-
     os.system("git config user.name 'github-actions'")
     os.system("git config user.email 'github-actions@github.com'")
 
-    changed = False
-    commit_parts = []
+    latest = fetch_latest_submission()
 
-    for date in dates:
-        try:
-            problem = fetch_daily_problem_by_date(date)
-            if not problem:
-                print(f"No problem for {date}")
-                continue
-
-            submission = fetch_latest_submission(problem["slug"])
-            if not submission:
-                print(f"No accepted submission for {problem['title']}")
-                continue
-
-            folder = create_files(date, problem, submission)
-            os.system(f"git add {folder}")
-
-            changed = True
-            commit_parts.append(f"{problem['title']} (#{problem['id']})")
-
-        except Exception as e:
-            print(f"Error for {date}: {e}")
-
-    if not changed:
-        print("No changes to commit")
+    if not latest:
+        print("No accepted submission found")
         return
 
-    # Single Commit Message
-    commit_msg = f"LeetCode Sync: {start_date} → {end_date}\n" + "\n".join(commit_parts)
+    slug = latest["title_slug"]
 
+    # Prevent duplicate work (idempotent)
+    if os.path.exists(f".last_synced") :
+        with open(".last_synced", "r") as f:
+            if f.read().strip() == str(latest["id"]):
+                print("No new submission")
+                return
+
+    problem = fetch_problem_details(slug)
+    folder = create_files(problem, latest)
+
+    # Save last synced ID
+    with open(".last_synced", "w") as f:
+        f.write(str(latest["id"]))
+
+    # Commit
+    os.system("git add .")
+    commit_msg = f"{problem['title']} (#{problem['id']}) | Time: {latest['runtime']} | Space: {latest['memory']}"
     os.system(f'git commit -m "{commit_msg}" || echo "No changes"')
 
     # Rebase-safe push
     pull_status = os.system("git pull --rebase origin main")
-
     if pull_status != 0:
-        print("Rebase failed, aborting...")
         os.system("git rebase --abort")
         return
 
