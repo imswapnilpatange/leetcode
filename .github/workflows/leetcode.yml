@@ -1,22 +1,9 @@
-name: LeetCode Daily Sync
+name: LeetCode Auto Sync
 
 on:
   schedule:
-    - cron: '30 18 * * *'
+    - cron: '*/10 * * * *'   # every 10 minutes
   workflow_dispatch:
-    inputs:
-      start_date:
-        description: 'Start Date (YYYY-MM-DD)'
-        required: false
-      end_date:
-        description: 'End Date (YYYY-MM-DD)'
-        required: false
-      runtime:
-        required: false
-      memory:
-        required: false
-      language:
-        required: false
 
 jobs:
   sync:
@@ -26,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Pull latest changes
+      - name: Pull latest
         run: git pull --rebase origin main
 
       - name: Setup Python
@@ -34,12 +21,10 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: Install deps
         run: pip install requests
 
-      - name: Run script
+      - name: Run sync
         env:
           LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
-          START_DATE: ${{ github.event.inputs.start_date }}
-          END_DATE: ${{ github.event.inputs.end_date }}
         run: python sync_leetcode.py
