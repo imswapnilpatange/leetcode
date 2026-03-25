@@ -6,8 +6,10 @@ on:
   workflow_dispatch:
     inputs:
       start_date:
+        description: 'Start Date (YYYY-MM-DD)'
         required: false
       end_date:
+        description: 'End Date (YYYY-MM-DD)'
         required: false
       runtime:
         required: false
