@@ -1,0 +1,18 @@
+{
+  "problem_id": "3548",
+  "problem_name": "Equal Sum Grid Partition II",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Matrix",
+    "Enumeration",
+    "Prefix Sum"
+  ],
+  "language": "java",
+  "runtime": "308 ms",
+  "runtime_percent": "",
+  "memory": "274.2 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/equal-sum-grid-partition-ii"
+}
