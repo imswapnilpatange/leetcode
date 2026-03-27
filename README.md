@@ -352,3 +352,5 @@
 - [Power of Four](https://leetcode.com/problems/power-of-four)
 
 - [Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii)
+
+- [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts)

@@ -1,0 +1,17 @@
+{
+  "problem_id": "2946",
+  "problem_name": "Matrix Similarity After Cyclic Shifts",
+  "difficulty": "Easy",
+  "tags": [
+    "Array",
+    "Math",
+    "Matrix",
+    "Simulation"
+  ],
+  "language": "java",
+  "runtime": "1 ms",
+  "runtime_percent": "",
+  "memory": "47 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts"
+}
