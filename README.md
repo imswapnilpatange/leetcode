@@ -354,3 +354,5 @@
 - [Equal Sum Grid Partition II](https://leetcode.com/problems/equal-sum-grid-partition-ii)
 
 - [Matrix Similarity After Cyclic Shifts](https://leetcode.com/problems/matrix-similarity-after-cyclic-shifts)
+
+- [Find the String with LCP](https://leetcode.com/problems/find-the-string-with-lcp)
