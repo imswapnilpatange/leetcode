@@ -89,36 +89,95 @@ def fetch_problem_details(slug):
 # ✅ FIXED: README Update (robust)
 # ---------------------------
 
+def normalize(tag):
+    return tag.lower().replace(" ", "")
+
+
 def update_root_readme(problem, slug):
-    line = f"- [{problem['title']}](https://leetcode.com/problems/{slug})\n"
     path = "README.md"
 
-    if not os.path.exists(path):
-        with open(path, "w") as f:
-            f.write("# LeetCode Solutions\n\n## Related Topics\n\n")
+    # IMPORTANT: match your repo format
+    pid = str(problem["id"]).zfill(4)
+    entry = f"| [{pid}-{slug}](https://github.com/imswapnilpatange/leetcode/tree/master/{pid}-{slug}) |"
 
     with open(path, "r") as f:
         content = f.read()
 
-    if line.strip() in content:
+    start_marker = "<!---LeetCode Topics Start-->"
+    end_marker = "<!---LeetCode Topics End-->"
+
+    if start_marker not in content or end_marker not in content:
+        print("Markers not found. Aborting update.")
         return
 
-    if "## Related Topics" not in content:
-        content += "\n## Related Topics\n\n"
+    before = content.split(start_marker)[0]
+    middle = content.split(start_marker)[1].split(end_marker)[0]
+    after = content.split(end_marker)[1]
 
-    # Insert at END of section
-    parts = content.split("## Related Topics")
-    before = parts[0]
-    after = "## Related Topics" + parts[1]
+    lines = middle.strip().split("\n")
 
-    if "## " in after[1:]:
-        split_index = after[1:].find("## ") + 1
-        section = after[:split_index]
-        rest = after[split_index:]
-        section += "\n" + line
-        new_content = before + section + rest
-    else:
-        new_content = before + after + "\n" + line
+    # ---------------------------
+    # Parse sections
+    # ---------------------------
+    sections = {}
+    order = []
+    current = None
+
+    for line in lines:
+        if line.startswith("## "):
+            current = line[3:].strip()
+            sections[current] = []
+            order.append(current)
+        elif current:
+            sections[current].append(line)
+
+    # ---------------------------
+    # Normalize section names
+    # ---------------------------
+    normalized_map = {normalize(k): k for k in sections}
+
+    # ---------------------------
+    # Insert into tags
+    # ---------------------------
+    for tag in problem["tags"]:
+        key = normalize(tag)
+
+        if key in normalized_map:
+            section_name = normalized_map[key]
+        else:
+            # Create new section with table header
+            section_name = tag
+            sections[section_name] = ["|  |", "| ------- |"]
+            order.append(section_name)
+            normalized_map[key] = section_name
+
+        # Avoid duplicate
+        if entry not in sections[section_name]:
+            sections[section_name].append(entry)
+
+    # ---------------------------
+    # Rebuild middle content
+    # ---------------------------
+    new_middle = []
+
+    for sec in order:
+        new_middle.append(f"## {sec}")
+        for row in sections[sec]:
+            new_middle.append(row)
+        new_middle.append("")  # spacing
+
+    new_middle_str = "\n".join(new_middle).strip()
+
+    # ---------------------------
+    # Final content
+    # ---------------------------
+    new_content = (
+        before
+        + start_marker + "\n"
+        + new_middle_str + "\n"
+        + end_marker
+        + after
+    )
 
     with open(path, "w") as f:
         f.write(new_content)
