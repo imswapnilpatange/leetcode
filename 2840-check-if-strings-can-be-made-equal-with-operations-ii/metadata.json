@@ -1,0 +1,16 @@
+{
+  "problem_id": "2840",
+  "problem_name": "Check if Strings Can be Made Equal With Operations II",
+  "difficulty": "Medium",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sorting"
+  ],
+  "language": "java",
+  "runtime": "6 ms",
+  "runtime_percent": "",
+  "memory": "48 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii"
+}

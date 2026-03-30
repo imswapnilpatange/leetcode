@@ -1,6 +1,5 @@
 # leetcode
 <!---LeetCode Topics Start-->
-# LeetCode Topics
 ## Math
 |  |
 | ------- |
@@ -18,6 +17,7 @@
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/imswapnilpatange/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
+
 ## Database
 |  |
 | ------- |
@@ -33,6 +33,7 @@
 | [1801-average-time-of-process-per-machine](https://github.com/imswapnilpatange/leetcode/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/imswapnilpatange/leetcode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/imswapnilpatange/leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+
 ## Array
 |  |
 | ------- |
@@ -75,6 +76,7 @@
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
 | [3846-minimum-operations-to-make-array-sum-divisible-by-k](https://github.com/imswapnilpatange/leetcode/tree/master/3846-minimum-operations-to-make-array-sum-divisible-by-k) |
 | [3869-smallest-index-with-digit-sum-equal-to-index](https://github.com/imswapnilpatange/leetcode/tree/master/3869-smallest-index-with-digit-sum-equal-to-index) |
+
 ## Hash Table
 |  |
 | ------- |
@@ -90,6 +92,8 @@
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/imswapnilpatange/leetcode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
+
 ## Stack
 |  |
 | ------- |
@@ -97,12 +101,14 @@
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
+
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/imswapnilpatange/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
+
 ## Two Pointers
 |  |
 | ------- |
@@ -114,6 +120,7 @@
 | [0696-count-binary-substrings](https://github.com/imswapnilpatange/leetcode/tree/master/0696-count-binary-substrings) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [3643-flip-square-submatrix-vertically](https://github.com/imswapnilpatange/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
+
 ## Dynamic Programming
 |  |
 | ------- |
@@ -125,6 +132,7 @@
 | [1653-minimum-deletions-to-make-string-balanced](https://github.com/imswapnilpatange/leetcode/tree/master/1653-minimum-deletions-to-make-string-balanced) |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/imswapnilpatange/leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
+
 ## Greedy
 |  |
 | ------- |
@@ -133,6 +141,7 @@
 | [1536-minimum-swaps-to-arrange-a-binary-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1536-minimum-swaps-to-arrange-a-binary-grid) |
 | [1727-largest-submatrix-with-rearrangements](https://github.com/imswapnilpatange/leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/imswapnilpatange/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+
 ## Binary Search
 |  |
 | ------- |
@@ -156,6 +165,7 @@
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [2040-kth-smallest-product-of-two-sorted-arrays](https://github.com/imswapnilpatange/leetcode/tree/master/2040-kth-smallest-product-of-two-sorted-arrays) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/imswapnilpatange/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+
 ## Divide and Conquer
 |  |
 | ------- |
@@ -166,6 +176,7 @@
 | [0761-special-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+
 ## Sorting
 |  |
 | ------- |
@@ -182,6 +193,8 @@
 | [1727-largest-submatrix-with-rearrangements](https://github.com/imswapnilpatange/leetcode/tree/master/1727-largest-submatrix-with-rearrangements) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/imswapnilpatange/leetcode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
+
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -191,10 +204,12 @@
 | [1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows](https://github.com/imswapnilpatange/leetcode/tree/master/1439-find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows) |
 | [1878-get-biggest-three-rhombus-sums-in-a-grid](https://github.com/imswapnilpatange/leetcode/tree/master/1878-get-biggest-three-rhombus-sums-in-a-grid) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/imswapnilpatange/leetcode/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+
 ## Matrix
 |  |
 | ------- |
@@ -209,11 +224,13 @@
 | [3212-count-submatrices-with-equal-frequency-of-x-and-y](https://github.com/imswapnilpatange/leetcode/tree/master/3212-count-submatrices-with-equal-frequency-of-x-and-y) |
 | [3546-equal-sum-grid-partition-i](https://github.com/imswapnilpatange/leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3643-flip-square-submatrix-vertically](https://github.com/imswapnilpatange/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
+
 ## Sliding Window
 |  |
 | ------- |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/imswapnilpatange/leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
+
 ## String
 |  |
 | ------- |
@@ -231,6 +248,8 @@
 | [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
+| [2840-check-if-strings-can-be-made-equal-with-operations-ii](https://github.com/imswapnilpatange/leetcode/tree/master/2840-check-if-strings-can-be-made-equal-with-operations-ii) |
+
 ## Tree
 |  |
 | ------- |
@@ -240,12 +259,14 @@
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
+
 ## Depth-First Search
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
+
 ## Binary Tree
 |  |
 | ------- |
@@ -255,6 +276,7 @@
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
+
 ## Backtracking
 |  |
 | ------- |
@@ -262,17 +284,20 @@
 | [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/imswapnilpatange/leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
+
 ## Binary Search Tree
 |  |
 | ------- |
 | [0095-unique-binary-search-trees-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0095-unique-binary-search-trees-ii) |
 | [0700-search-in-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0700-search-in-a-binary-search-tree) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
+
 ## Segment Tree
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/imswapnilpatange/leetcode/tree/master/1622-fancy-sequence) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+
 ## Prefix Sum
 |  |
 | ------- |
@@ -283,16 +308,19 @@
 | [3546-equal-sum-grid-partition-i](https://github.com/imswapnilpatange/leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3714-longest-balanced-substring-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3714-longest-balanced-substring-ii) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+
 ## Counting
 |  |
 | ------- |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/imswapnilpatange/leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+
 ## Enumeration
 |  |
 | ------- |
 | [3546-equal-sum-grid-partition-i](https://github.com/imswapnilpatange/leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+
 ## Bit Manipulation
 |  |
 | ------- |
@@ -315,6 +343,7 @@
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/imswapnilpatange/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/imswapnilpatange/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
+
 ## Simulation
 |  |
 | ------- |
@@ -322,24 +351,29 @@
 | [1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one](https://github.com/imswapnilpatange/leetcode/tree/master/1404-number-of-steps-to-reduce-a-number-in-binary-representation-to-one) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
+
 ## Interactive
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/imswapnilpatange/leetcode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/imswapnilpatange/leetcode/tree/master/0374-guess-number-higher-or-lower) |
+
 ## Rolling Hash
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/imswapnilpatange/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+
 ## Hash Function
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/imswapnilpatange/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+
 ## Recursion
 |  |
 | ------- |
 | [0231-power-of-two](https://github.com/imswapnilpatange/leetcode/tree/master/0231-power-of-two) |
 | [1545-find-kth-bit-in-nth-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1545-find-kth-bit-in-nth-binary-string) |
+
 ## Design
 |  |
 | ------- |
