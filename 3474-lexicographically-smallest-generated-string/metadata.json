@@ -1,0 +1,16 @@
+{
+  "problem_id": "3474",
+  "problem_name": "Lexicographically Smallest Generated String",
+  "difficulty": "Hard",
+  "tags": [
+    "String",
+    "Greedy",
+    "String Matching"
+  ],
+  "language": "java",
+  "runtime": "1562 ms",
+  "runtime_percent": "",
+  "memory": "46.5 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/lexicographically-smallest-generated-string"
+}
