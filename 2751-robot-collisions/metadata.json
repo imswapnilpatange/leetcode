@@ -1,0 +1,17 @@
+{
+  "problem_id": "2751",
+  "problem_name": "Robot Collisions",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Stack",
+    "Sorting",
+    "Simulation"
+  ],
+  "language": "java",
+  "runtime": "50 ms",
+  "runtime_percent": "",
+  "memory": "123 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/robot-collisions"
+}
