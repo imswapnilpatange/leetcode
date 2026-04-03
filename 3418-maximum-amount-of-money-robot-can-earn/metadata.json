@@ -1,0 +1,16 @@
+{
+  "problem_id": "3418",
+  "problem_name": "Maximum Amount of Money Robot Can Earn",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "language": "java",
+  "runtime": "104 ms",
+  "runtime_percent": "",
+  "memory": "238.1 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn"
+}
