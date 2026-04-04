@@ -1,0 +1,17 @@
+{
+  "problem_id": "3661",
+  "problem_name": "Maximum Walls Destroyed by Robots",
+  "difficulty": "Hard",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "language": "java",
+  "runtime": "234 ms",
+  "runtime_percent": "",
+  "memory": "161.1 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/maximum-walls-destroyed-by-robots"
+}
