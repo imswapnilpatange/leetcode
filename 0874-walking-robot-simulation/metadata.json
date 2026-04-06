@@ -1,0 +1,16 @@
+{
+  "problem_id": "874",
+  "problem_name": "Walking Robot Simulation",
+  "difficulty": "Medium",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Simulation"
+  ],
+  "language": "java",
+  "runtime": "35 ms",
+  "runtime_percent": "",
+  "memory": "51.7 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/walking-robot-simulation"
+}

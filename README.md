@@ -27,6 +27,7 @@
 
 
 
+
 ## Database
 |  |
 | ------- |
@@ -42,6 +43,7 @@
 | [1801-average-time-of-process-per-machine](https://github.com/imswapnilpatange/leetcode/tree/master/1801-average-time-of-process-per-machine) |
 | [1827-invalid-tweets](https://github.com/imswapnilpatange/leetcode/tree/master/1827-invalid-tweets) |
 | [1908-recyclable-and-low-fat-products](https://github.com/imswapnilpatange/leetcode/tree/master/1908-recyclable-and-low-fat-products) |
+
 
 
 
@@ -104,6 +106,8 @@
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/imswapnilpatange/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 
 
+| [0874-walking-robot-simulation](https://github.com/imswapnilpatange/leetcode/tree/master/0874-walking-robot-simulation) |
+
 ## Hash Table
 |  |
 | ------- |
@@ -128,6 +132,8 @@
 
 
 
+| [0874-walking-robot-simulation](https://github.com/imswapnilpatange/leetcode/tree/master/0874-walking-robot-simulation) |
+
 ## Stack
 |  |
 | ------- |
@@ -143,12 +149,14 @@
 
 
 
+
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/imswapnilpatange/leetcode/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/imswapnilpatange/leetcode/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/imswapnilpatange/leetcode/tree/master/0503-next-greater-element-ii) |
+
 
 
 
@@ -167,6 +175,7 @@
 | [0696-count-binary-substrings](https://github.com/imswapnilpatange/leetcode/tree/master/0696-count-binary-substrings) |
 | [1346-check-if-n-and-its-double-exist](https://github.com/imswapnilpatange/leetcode/tree/master/1346-check-if-n-and-its-double-exist) |
 | [3643-flip-square-submatrix-vertically](https://github.com/imswapnilpatange/leetcode/tree/master/3643-flip-square-submatrix-vertically) |
+
 
 
 
@@ -195,6 +204,7 @@
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/imswapnilpatange/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 
 
+
 ## Greedy
 |  |
 | ------- |
@@ -207,6 +217,7 @@
 
 
 | [3474-lexicographically-smallest-generated-string](https://github.com/imswapnilpatange/leetcode/tree/master/3474-lexicographically-smallest-generated-string) |
+
 
 
 
@@ -243,6 +254,7 @@
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/imswapnilpatange/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 
 
+
 ## Divide and Conquer
 |  |
 | ------- |
@@ -253,6 +265,7 @@
 | [0761-special-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/0761-special-binary-string) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+
 
 
 
@@ -286,6 +299,7 @@
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/imswapnilpatange/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 
 
+
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -302,10 +316,12 @@
 
 
 
+
 ## Quickselect
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/imswapnilpatange/leetcode/tree/master/0215-kth-largest-element-in-an-array) |
+
 
 
 
@@ -338,11 +354,13 @@
 
 
 
+
 ## Sliding Window
 |  |
 | ------- |
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/imswapnilpatange/leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [3634-minimum-removals-to-balance-array](https://github.com/imswapnilpatange/leetcode/tree/master/3634-minimum-removals-to-balance-array) |
+
 
 
 
@@ -380,6 +398,7 @@
 
 | [0657-robot-return-to-origin](https://github.com/imswapnilpatange/leetcode/tree/master/0657-robot-return-to-origin) |
 
+
 ## Tree
 |  |
 | ------- |
@@ -396,12 +415,14 @@
 
 
 
+
 ## Depth-First Search
 |  |
 | ------- |
 | [0110-balanced-binary-tree](https://github.com/imswapnilpatange/leetcode/tree/master/0110-balanced-binary-tree) |
 | [1022-sum-of-root-to-leaf-binary-numbers](https://github.com/imswapnilpatange/leetcode/tree/master/1022-sum-of-root-to-leaf-binary-numbers) |
 | [1382-balance-a-binary-search-tree](https://github.com/imswapnilpatange/leetcode/tree/master/1382-balance-a-binary-search-tree) |
+
 
 
 
@@ -425,6 +446,7 @@
 
 
 
+
 ## Backtracking
 |  |
 | ------- |
@@ -432,6 +454,7 @@
 | [0401-binary-watch](https://github.com/imswapnilpatange/leetcode/tree/master/0401-binary-watch) |
 | [1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n](https://github.com/imswapnilpatange/leetcode/tree/master/1415-the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |
 | [1980-find-unique-binary-string](https://github.com/imswapnilpatange/leetcode/tree/master/1980-find-unique-binary-string) |
+
 
 
 
@@ -452,11 +475,13 @@
 
 
 
+
 ## Segment Tree
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/imswapnilpatange/leetcode/tree/master/1622-fancy-sequence) |
 | [3719-longest-balanced-subarray-i](https://github.com/imswapnilpatange/leetcode/tree/master/3719-longest-balanced-subarray-i) |
+
 
 
 
@@ -482,11 +507,13 @@
 
 
 
+
 ## Counting
 |  |
 | ------- |
 | [1356-sort-integers-by-the-number-of-1-bits](https://github.com/imswapnilpatange/leetcode/tree/master/1356-sort-integers-by-the-number-of-1-bits) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+
 
 
 
@@ -500,6 +527,7 @@
 | [3546-equal-sum-grid-partition-i](https://github.com/imswapnilpatange/leetcode/tree/master/3546-equal-sum-grid-partition-i) |
 | [3548-equal-sum-grid-partition-ii](https://github.com/imswapnilpatange/leetcode/tree/main/3548-equal-sum-grid-partition-ii) |
 | [3713-longest-balanced-substring-i](https://github.com/imswapnilpatange/leetcode/tree/master/3713-longest-balanced-substring-i) |
+
 
 
 
@@ -538,6 +566,7 @@
 
 
 
+
 ## Simulation
 |  |
 | ------- |
@@ -555,11 +584,14 @@
 
 | [0657-robot-return-to-origin](https://github.com/imswapnilpatange/leetcode/tree/master/0657-robot-return-to-origin) |
 
+| [0874-walking-robot-simulation](https://github.com/imswapnilpatange/leetcode/tree/master/0874-walking-robot-simulation) |
+
 ## Interactive
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/imswapnilpatange/leetcode/tree/master/0278-first-bad-version) |
 | [0374-guess-number-higher-or-lower](https://github.com/imswapnilpatange/leetcode/tree/master/0374-guess-number-higher-or-lower) |
+
 
 
 
@@ -578,10 +610,12 @@
 
 
 
+
 ## Hash Function
 |  |
 | ------- |
 | [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/imswapnilpatange/leetcode/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
+
 
 
 
@@ -603,10 +637,12 @@
 
 
 
+
 ## Design
 |  |
 | ------- |
 | [1622-fancy-sequence](https://github.com/imswapnilpatange/leetcode/tree/master/1622-fancy-sequence) |
+
 
 
 
