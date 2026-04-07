@@ -1,0 +1,15 @@
+{
+  "problem_id": "2069",
+  "problem_name": "Walking Robot Simulation II",
+  "difficulty": "Medium",
+  "tags": [
+    "Design",
+    "Simulation"
+  ],
+  "language": "java",
+  "runtime": "61 ms",
+  "runtime_percent": "",
+  "memory": "57.9 MB",
+  "memory_percent": "",
+  "link": "https://leetcode.com/problems/walking-robot-simulation-ii"
+}
