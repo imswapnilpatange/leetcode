@@ -202,12 +202,7 @@
 | [1888-minimum-number-of-flips-to-make-the-binary-string-alternating](https://github.com/imswapnilpatange/leetcode/tree/master/1888-minimum-number-of-flips-to-make-the-binary-string-alternating) |
 | [2573-find-the-string-with-lcp](https://github.com/imswapnilpatange/leetcode/tree/main/2573-find-the-string-with-lcp) |
 | [3130-find-all-possible-stable-binary-arrays-ii](https://github.com/imswapnilpatange/leetcode/tree/master/3130-find-all-possible-stable-binary-arrays-ii) |
-
-
-
-
 | [3418-maximum-amount-of-money-robot-can-earn](https://github.com/imswapnilpatange/leetcode/tree/master/3418-maximum-amount-of-money-robot-can-earn) |
-
 | [3661-maximum-walls-destroyed-by-robots](https://github.com/imswapnilpatange/leetcode/tree/master/3661-maximum-walls-destroyed-by-robots) |
 
 
